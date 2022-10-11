@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+    Reactive Music
+    </title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="javascript/rmusic.js"></script>  
+<h1>Reactive Music</h1>
+</head>
+<style>
+    
+</style>
+<body>
+    <header>
+      
+    </header>
+    <main>
+<div class="videobox">
+    <video  class="vide0" id="firstVid" width="640" height="360">
+    <source src= "content/fingerstyle.mp4"></video> 
+
+    <video  class="vide0" id="secondVid" width="640" height="360">
+        <source src= "content/drums.mp4"></video> 
+
+    <video  class="vide0" id="thirdVid" width="640" height="360">
+        <source src= "content/chords.mp4"></video> 
+    
+    <video  class="vide0" id="fourthVid" width="640" height="360">
+        <source src= "content/singlestring.mp4"></video> 
+
+    <video  class="vide0" id="fifthVid" width="640" height="360">
+        <source src= "content/voice.mp4"></video> 
+</div>
+
+<div id="controlbox">
+<button onclick="playPause1();playPause2();playPause3();playPause4();playPause5();" class="vidcontrols" id="playbutton">
+    play/pause
+ </button>
+ <button class="vidcontrols" id="reloadbutton">
+    reload
+ </button>
+</div>
+
+<div id="instrumentsandbutton">
+    <div class="instrument">
+    <p class="instrumentword"> fingerstyle guitar</p>
+    <input type="checkbox" class="switch" id="fingerstylecheck">
+    </div>
+
+    <div class="instrument">
+        <p class="instrumentword"> drums</p>
+        <input type="checkbox" class="switch" id="drumcheck">
+        </div>
+        
+    <div class="instrument">
+        <p class="instrumentword"> guitar chords</p>
+        <input type="checkbox" class="switch" id="chordscheck">
+        </div>
+
+    <div class="instrument">
+        <p class="instrumentword"> single string</p>
+        <input type="checkbox" class="switch" id="stringcheck">
+        </div>
+
+    <div class="instrument">
+        <p class="instrumentword"> vocals</p>
+        <input type="checkbox" class="switch" id="vocalscheck">
+        </div>
+
+
+</div>
+
+
+    </main>
+</body>
+</html>
