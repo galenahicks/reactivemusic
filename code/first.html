@@ -4,6 +4,7 @@
     <title>
     Reactive Music
     </title>
+    <link rel="stylesheet" href="https://use.typekit.net/fxr5gan.css">
     <link rel="stylesheet" href="css/styles.css">
     <script type="text/javascript" src="javascript/rmusic.js"></script>  
 <h1>Reactive Music</h1>
@@ -37,34 +38,34 @@
 <button onclick="playPause1();playPause2();playPause3();playPause4();playPause5();" class="vidcontrols" id="playbutton">
     play/pause
  </button>
- <button class="vidcontrols" id="reloadbutton">
+ <button class="vidcontrols" id="reloadbutton" onclick="window.location.href=window.location.href">
     reload
  </button>
 </div>
 
 <div id="instrumentsandbutton">
-    <div class="instrument">
+    <div class="instrument" id="fingerstylebox">
     <p class="instrumentword"> fingerstyle guitar</p>
-    <input type="checkbox" class="switch" id="fingerstylecheck">
+    <input onclick="changeBg1();changeText1();" type="checkbox" class="switch" id="fingerstylecheck">
     </div>
 
     <div class="instrument">
-        <p class="instrumentword"> drums</p>
+        <p class="instrumentword" id="drumsbox"> drums</p>
         <input type="checkbox" class="switch" id="drumcheck">
         </div>
         
     <div class="instrument">
-        <p class="instrumentword"> guitar chords</p>
+        <p class="instrumentword" id="chordsbox"> guitar chords</p>
         <input type="checkbox" class="switch" id="chordscheck">
         </div>
 
     <div class="instrument">
-        <p class="instrumentword"> single string</p>
+        <p class="instrumentword" id="stringbox"> single string</p>
         <input type="checkbox" class="switch" id="stringcheck">
         </div>
 
     <div class="instrument">
-        <p class="instrumentword"> vocals</p>
+        <p class="instrumentword" id="vocalsbox"> vocals</p>
         <input type="checkbox" class="switch" id="vocalscheck">
         </div>
 

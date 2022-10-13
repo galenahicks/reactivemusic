@@ -44,3 +44,40 @@ function playPause5() {
     else
         myVideo2.pause();
 }
+
+/*var instrumentBoxes = document.getElementsByClassName('instrument');
+
+instrumentBoxes.onmouseover = function hoverBlue() {
+    var instrumentBoxes = document.getElementsByClassName('instrument');
+    instrumentBoxes.style.backgroundColor = 'rgb(0, 115, 255)';
+}*/
+
+/*document.getElementsByClassName("instrument").onmouseover = function() {mouseOver()};
+document.getElementsByClassName("instrument").onmouseout = function() {mouseOut()};
+
+function mouseOver() {
+  document.getElementsByClassName("instrument").style.backgroundColor = "rgb(0, 115, 255)";
+}
+
+function mouseOut() {
+  document.getElementsByClassName("instrument").style.backgroundColor = "rgba(0, 242, 255, 0.828)";
+}*/
+
+
+/*function changeBg1() {
+    var fingerstyleBox = document.getElementById('fingerstylebox');
+    var checkBox1 = document.getElementById('fingerstylecheck');
+    if (checkBox1.checked == true)
+        fingerstyleBox.style.backgroundColor = 'rgb(0, 115, 255)';
+    else
+        fingerstyleBox.style.backgroundColor = 'rgba(0, 242, 255, 0.828)';
+}   
+
+function changeText1() {
+    var fingerstyleBox = document.getElementById('fingerstylebox');
+    var checkBox1 = document.getElementById('fingerstylecheck');
+    if (checkBox1.checked == true)
+        fingerstyleBox.style.color = 'white';
+    else
+        fingerstyleBox.style.color = 'black';
+}*/
